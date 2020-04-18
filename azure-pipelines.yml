@@ -23,8 +23,8 @@ steps:
     
 - task: NodeTool@0 
   inputs:
-    versionSpec: '8.x' # replace this value with the version that you need for your project
-
+    versionSpec: '6.9.o'
+    
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
