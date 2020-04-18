@@ -23,7 +23,7 @@ steps:
     
 - task: NodeTool@0 
   inputs:
-    versionSpec: '6.9.o'
+    versionSpec: '6.9.0'
     
 - task: VSBuild@1
   inputs:
