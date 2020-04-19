@@ -18,7 +18,7 @@
                 "displayName": "appServicePlandemo"
             },
             "properties": {
-                "name": "appServicePlan1"
+                "name": "appServicePlandemo"
             }
         },
         {
@@ -27,7 +27,7 @@
             "apiVersion": "2018-11-01",
             "location": "[resourceGroup().location]",
             "tags": {
-                "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/appServicePlan1')]": "Resource",
+                "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/appServicePlandemo')]": "Resource",
                 "displayName": "webappdemo4343"
             },
             "dependsOn": [
